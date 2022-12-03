@@ -1,0 +1,50 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: brown;
+    grid-template-areas:
+        "logo topbar"
+        "logo bottombar";
+    padding: 10px;
+    gap: 5px;
+}
+
+.logo {
+    grid-area: logo;
+    border-radius: 50%;
+    height: 49px;
+    width: 49px;
+    object-fit: cover;
+}
+
+.topbar {
+    grid-area: topbar;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottombar {
+    grid-area: bottombar;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.left {
+    display: flex;
+    gap: 7px;
+    justify-self: flex-start;
+}
+
+/*<div class="container">
+    <div class="logo">{{chatItem}}</div>
+    <div class="topbar">
+        <div>Name</div>
+        <div>Time</div>
+    </div>
+    <div class="bottombar">
+        <div>Last message</div>
+        <div>Icon</div>
+    </div>
+</div>*/

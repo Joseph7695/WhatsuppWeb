@@ -1,0 +1,40 @@
+* {
+    color: white;
+}
+
+.round {
+    border-radius: 50%;
+    background-color: grey;
+}
+
+.menu-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: indigo;
+}
+
+.menu {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    padding-right: 18px;
+}
+
+.search {
+    background-color: blueviolet;
+    border-radius: 7px;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 5px 15px;
+}
+
+.search-row {
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 10px;
+}

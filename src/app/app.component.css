@@ -1,0 +1,30 @@
+* {
+    color: white;
+}
+
+.background {
+    background-color: aqua;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    background-color: #172733;
+    margin: auto;
+    height: 97vh;
+    aspect-ratio: 1.05;
+    display: flex;
+    justify-content: center;
+}
+
+.chatlist {
+    flex-grow: 1;
+    max-width: 400px;
+    border-width: 0px;
+    border-right: 0.5px solid white;
+}
+
+.chatview {
+    flex-grow: 1;
+}
